@@ -4,6 +4,8 @@ import SearchBox from '../components/searchbox.js';
 import './app.css';
 import Scroll from '../components/scroll.js';
 import 'tachyons';
+import { connect } from 'react-redux';
+import { setSearchField } from '../action.js'
 
 
 class App extends Component{

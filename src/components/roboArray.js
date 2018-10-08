@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './robo.js'
 
 
-const RoboArray=({robots})=>{
+const RoboArray=({robots,props})=>{
   return(<div>
           {
             robots.map((val,i)=>{
